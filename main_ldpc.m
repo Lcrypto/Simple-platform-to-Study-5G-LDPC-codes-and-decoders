@@ -8,7 +8,7 @@ I_max = 50;
 Frames=100;
 %decode_mode = 'BP';
 decode_mode = 'OMS';
-beta = 0.6; % scale and offset parameter of the decoder
+beta = 0.6; % scale or offset parameter of the decoder
 rng(100);
 [ldpc_param] = ldpc_param_init(TBS,code_rate);
 
